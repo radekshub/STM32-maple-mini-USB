@@ -1,0 +1,320 @@
+EESchema Schematic File Version 2
+LIBS:xxx-board-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:maxim-ic
+LIBS:xxx-board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB_OTG-RESCUE-xxx-board USB-P2
+U 1 1 58377BE0
+P 2900 3300
+F 0 "USB-P2" H 2900 3600 50  0000 C CNN
+F 1 "USB_OTG" H 2900 3500 50  0000 C CNN
+F 2 "Connect:USB_Micro-B" V 2850 3200 50  0001 C CNN
+F 3 "" V 2850 3200 50  0000 C CNN
+	1    2900 3300
+	-1   0    0    1   
+$EndComp
+Text GLabel 2700 3000 1    39   Input ~ 0
+USB-GND
+Text GLabel 3400 3000 2    39   Input ~ 0
+USB-5V
+NoConn ~ 2800 3000
+Text GLabel 2500 3400 0    39   Input ~ 0
+USB-GND
+$Comp
+L R USB-R4
+U 1 1 584B4C92
+P 3150 5500
+F 0 "USB-R4" V 3230 5500 50  0000 C CNN
+F 1 "1k" V 3150 5500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3080 5500 50  0001 C CNN
+F 3 "" H 3150 5500 50  0000 C CNN
+	1    3150 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-xxx-board USB-D2
+U 1 1 584B4CD9
+P 2800 5500
+F 0 "USB-D2" H 2800 5600 50  0000 C CNN
+F 1 "LED" H 2800 5400 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 2800 5500 50  0001 C CNN
+F 3 "" H 2800 5500 50  0000 C CNN
+	1    2800 5500
+	-1   0    0    1   
+$EndComp
+Text GLabel 3300 5500 2    39   Input ~ 0
+USB-GND
+$Comp
+L R USB-R1
+U 1 1 584B3B1B
+P 2900 2850
+F 0 "USB-R1" V 2800 2850 50  0000 C CNN
+F 1 "22R" V 2900 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2830 2850 50  0001 C CNN
+F 3 "" H 2900 2850 50  0000 C CNN
+	1    2900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R USB-R2
+U 1 1 584B3B82
+P 3000 2850
+F 0 "USB-R2" V 3080 2850 50  0000 C CNN
+F 1 "22R" V 3000 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2930 2850 50  0001 C CNN
+F 3 "" H 3000 2850 50  0000 C CNN
+	1    3000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C USB-C2
+U 1 1 584B496E
+P 3150 2550
+F 0 "USB-C2" H 3175 2650 50  0000 L CNN
+F 1 "22p" H 3175 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3188 2400 50  0001 C CNN
+F 3 "" H 3150 2550 50  0000 C CNN
+	1    3150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L C USB-C1
+U 1 1 584B49D3
+P 2750 2550
+F 0 "USB-C1" H 2775 2650 50  0000 L CNN
+F 1 "22p" H 2775 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2788 2400 50  0001 C CNN
+F 3 "" H 2750 2550 50  0000 C CNN
+	1    2750 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 2600 2550 0    39   Input ~ 0
+USB-GND
+Text GLabel 3300 2550 2    39   Input ~ 0
+USB-GND
+Text GLabel 2900 2550 1    39   Input ~ 0
+USB-DP
+Text GLabel 3000 2550 1    39   Input ~ 0
+USB-DM
+$Comp
+L R USB-R8
+U 1 1 584B7F10
+P 2100 4600
+F 0 "USB-R8" V 2180 4600 50  0000 C CNN
+F 1 "1k" V 2100 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2030 4600 50  0001 C CNN
+F 3 "" H 2100 4600 50  0000 C CNN
+	1    2100 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R USB-R9
+U 1 1 584B7F69
+P 2250 4450
+F 0 "USB-R9" V 2330 4450 50  0000 C CNN
+F 1 "47k" V 2250 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2180 4450 50  0001 C CNN
+F 3 "" H 2250 4450 50  0000 C CNN
+	1    2250 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R USB-R7
+U 1 1 584B7FC4
+P 2550 4250
+F 0 "USB-R7" V 2630 4250 50  0000 C CNN
+F 1 "10k" V 2550 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2480 4250 50  0001 C CNN
+F 3 "" H 2550 4250 50  0000 C CNN
+	1    2550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R USB-R6
+U 1 1 584B801D
+P 2450 4250
+F 0 "USB-R6" V 2530 4250 50  0000 C CNN
+F 1 "36k" V 2450 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2380 4250 50  0001 C CNN
+F 3 "" H 2450 4250 50  0000 C CNN
+	1    2450 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R USB-R10
+U 1 1 584B8076
+P 2850 4750
+F 0 "USB-R10" V 2930 4750 50  0000 C CNN
+F 1 "1k5" V 2850 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2780 4750 50  0001 C CNN
+F 3 "" H 2850 4750 50  0000 C CNN
+	1    2850 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 4100 1    39   Input ~ 0
+USB-GND
+Text GLabel 2550 4100 1    39   Input ~ 0
+USB-5V
+Text GLabel 1950 4600 0    39   Input ~ 0
+USB-DISC
+Text GLabel 2250 4300 1    39   Input ~ 0
+USB-VCC
+Text GLabel 2550 4800 3    39   Input ~ 0
+USB-GND
+Text GLabel 2850 4900 3    39   Input ~ 0
+USB-DP
+Text GLabel 2850 4200 1    39   Input ~ 0
+USB-VCC
+$Comp
+L D USB-D1
+U 1 1 584B43DD
+P 3250 3000
+F 0 "USB-D1" H 3250 3100 50  0000 C CNN
+F 1 "D" H 3250 2900 50  0000 C CNN
+F 2 "Diodes_SMD:SMA_Standard" H 3250 3000 50  0001 C CNN
+F 3 "" H 3250 3000 50  0000 C CNN
+	1    3250 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Q_NPN_BEC USB-Q2
+U 1 1 584DB215
+P 2750 4400
+F 0 "USB-Q2" H 3050 4450 50  0000 R CNN
+F 1 "Q_NPN_BEC" H 3350 4350 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2950 4500 50  0001 C CNN
+F 3 "" H 2750 4400 50  0000 C CNN
+	1    2750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_BEC USB-Q1
+U 1 1 584DB6B3
+P 2450 4600
+F 0 "USB-Q1" H 2750 4650 50  0000 R CNN
+F 1 "Q_NPN_BEC" H 3050 4550 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2650 4700 50  0001 C CNN
+F 3 "" H 2450 4600 50  0000 C CNN
+	1    2450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2700 3000 2550
+Wire Wire Line
+	2900 2700 2900 2550
+Wire Wire Line
+	2450 4400 2550 4400
+$Comp
+L CONN_01X05 P1
+U 1 1 59FC6E45
+P 4950 2500
+F 0 "P1" H 4950 2800 50  0000 C CNN
+F 1 "CONN_01X05" V 5050 2500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4950 2500 50  0001 C CNN
+F 3 "" H 4950 2500 50  0000 C CNN
+	1    4950 2500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4850 2700 3    39   Input ~ 0
+USB-GND
+Text GLabel 4950 2700 3    39   Input ~ 0
+USB-DM
+Text GLabel 5050 2700 3    39   Input ~ 0
+USB-DP
+Text GLabel 5150 2700 3    39   Input ~ 0
+USB-DISC
+$Comp
+L AP1117 U1
+U 1 1 59FC5200
+P 4950 3800
+F 0 "U1" H 5050 3550 50  0000 C CNN
+F 1 "AP1117" H 4950 4050 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 4950 3450 50  0001 C CNN
+F 3 "" H 5050 3550 50  0000 C CNN
+	1    4950 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 3800 0    39   Input ~ 0
+USB-5V
+Text GLabel 5250 3800 2    39   Input ~ 0
+USB-VCC
+Text GLabel 4750 2700 3    39   Input ~ 0
+USB-VCC
+$Comp
+L CP C1
+U 1 1 59FC4B00
+P 5850 2750
+F 0 "C1" H 5875 2850 50  0000 L CNN
+F 1 "CP" H 5875 2650 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1210_Pol" H 5888 2600 50  0001 C CNN
+F 3 "" H 5850 2750 50  0000 C CNN
+	1    5850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 59FC4B69
+P 6150 2750
+F 0 "C2" H 6175 2850 50  0000 L CNN
+F 1 "CP" H 6175 2650 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1210_Pol" H 6188 2600 50  0001 C CNN
+F 3 "" H 6150 2750 50  0000 C CNN
+	1    6150 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 2900 3    39   Input ~ 0
+USB-GND
+Text GLabel 6150 2900 3    39   Input ~ 0
+USB-GND
+Text GLabel 5850 2600 1    39   Input ~ 0
+USB-5V
+Text GLabel 6150 2600 1    39   Input ~ 0
+USB-VCC
+Text GLabel 2600 5500 0    39   Input ~ 0
+USB-VCC
+Text GLabel 4950 4100 3    39   Input ~ 0
+USB-GND
+$EndSCHEMATC

@@ -1,0 +1,1 @@
+https://github.com/radekshub/STM32-maple-mini-USB
